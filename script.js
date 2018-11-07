@@ -1,4 +1,4 @@
-let numberOfPeople = document.getElementById("numberofPeople").value;
+let numberOfPeople = document.getElementById("numberOfPeople").value;
 let totalBillAmount = document.getElementById("totalBillAmount").value; 
 let tipLevel = document.getElementById("tip").value;
 let includingTip = []; 
