@@ -1,16 +1,17 @@
-let numberOfPeople = document.getElementById("numberOfPeople").value;
-let totalBillAmount = document.getElementById("totalBillAmount").value; 
-let tipLevel = document.getElementById("tip").value;
-let includingTip = []; 
-
 function totalCost() {
-	let a = includingTip / numberofPeople; 
-	document.getElementById("eachPersonPays").innerHTML = "Each Person Pays This Amount: " + a; 
-}
+	let totalBillAmount = document.getElementById("totalBillAmount").value; 
+	let numberOfPeople = document.getElementById("numberOfPeople").value;
+	let tip = document.getElementById("tip").value;
+	let a = tip * totalBillAmount; 
+	let b = totalBillAmount + a; 
+	let c = numberOfPeople / c; 
 
-function suggestedGratuityLevels() {
-	let b = totalBillAmount * tipLevel; 
-	includingTip.push(b);  
-}
+	document.getElementById("eachPersonPays").innerHTML = "Each Person Pays This Amount: " + c; 
+};  
+
+
+
+
+
 
  
